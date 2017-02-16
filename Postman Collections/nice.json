@@ -1,0 +1,29 @@
+{
+  "variables": [],
+  "info": {
+    "name": "nice",
+    "_postman_id": "c7a164dc-0f69-0fa8-33a3-39a77f245cbe",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "a984af77-5686-bf90-00d8-e867122eeb1d",
+      "name": "niceopen.mgmt",
+      "description": "http://niceopen.mgmt.niccce.com/html/index.html",
+      "item": []
+    },
+    {
+      "_postman_id": "bfa26418-fde4-7a2d-eb37-971101ec96eb",
+      "name": "ppgc.mgmt",
+      "description": "http://ppgc.mgmt.niccce.com/html/index.html\r\n&÷leasenli\r\nÆ12345678",
+      "item": []
+    },
+    {
+      "_postman_id": "e4b289fd-1816-b578-a35e-d5ff885a9476",
+      "name": "h5gc",
+      "description": "",
+      "item": []
+    }
+  ]
+}
