@@ -8,6 +8,127 @@
   },
   "item": [
     {
+      "_postman_id": "312c8cdb-0728-97dd-893f-1ab755909f4e",
+      "name": "sdk",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "d3449c96-0c44-0f50-a1df-36f65b8bff13",
+          "name": "/user/open/getAppAccessToken",
+          "request": {
+            "url": "http://h5gc.niccce.com/user/open/getAppAccessToken",
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "  appId",
+                  "value": "10020",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "timestamp",
+                  "value": "1487225834",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "sign",
+                  "value": "dc909bbd4d349fbeba2dc422b081ce71",
+                  "type": "text",
+                  "enabled": true
+                }
+              ]
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "c76a0792-2a74-dded-02fa-9961576bff99",
+          "name": "/user/open/getUserInfo",
+          "request": {
+            "url": "http://h5gc.niccce.com/user/open/getUserInfo",
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "  appId",
+                  "value": "10002",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "appAccessToken",
+                  "value": "NA63qGnJ8wp7tddEQ6RrqnTK8xaIDfgE",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "loginTicket",
+                  "value": "l3DKAj4fBrYEw1awA184S83tBSbNpHIZ",
+                  "type": "text",
+                  "enabled": true
+                }
+              ]
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "19140a5c-a14c-a8a1-dd64-63de2c5bc55d",
+          "name": "/user/open/checkLogin",
+          "request": {
+            "url": "http://h5gc.niccce.com/user/open/checkLogin",
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "  appId",
+                  "value": "10002",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "appAccessToken",
+                  "value": "NA63qGnJ8wp7tddEQ6RrqnTK8xaIDfgE",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "uin",
+                  "value": "1004116",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "token",
+                  "value": "YRoqi1XSiiv2m4AkDOxwcflEx9TaPGPS",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "sign",
+                  "value": "c711a8e65b47d03267d6b27a0488b3f5",
+                  "type": "text",
+                  "enabled": true
+                }
+              ]
+            },
+            "description": ""
+          },
+          "response": []
+        }
+      ]
+    },
+    {
       "_postman_id": "a984af77-5686-bf90-00d8-e867122eeb1d",
       "name": "niceopen.mgmt",
       "description": "http://niceopen.mgmt.niccce.com/html/index.html",
