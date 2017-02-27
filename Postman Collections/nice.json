@@ -174,7 +174,7 @@
         },
         {
           "_postman_id": "8b0d9d65-4a1b-8513-9502-79938ec9c967",
-          "name": "/game/detail",
+          "name": "/game/detail [local]",
           "request": {
             "url": "http://localhost:8080/game/detail",
             "method": "POST",
