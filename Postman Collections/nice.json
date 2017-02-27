@@ -145,25 +145,24 @@
           "request": {
             "url": "http://h5gc.niccce.com/game/detail",
             "method": "POST",
-            "header": [],
+            "header": [
+              {
+                "key": "uin",
+                "value": "leasenli",
+                "description": ""
+              },
+              {
+                "key": "token",
+                "value": "WJ27qOKbMIKki8d5eRPz9lDJTGRdrVco",
+                "description": ""
+              }
+            ],
             "body": {
               "mode": "formdata",
               "formdata": [
                 {
-                  "key": "appId",
-                  "value": "10020",
-                  "type": "text",
-                  "enabled": true
-                },
-                {
-                  "key": "timestamp",
-                  "value": "1487225834",
-                  "type": "text",
-                  "enabled": true
-                },
-                {
-                  "key": "sign",
-                  "value": "dc909bbd4d349fbeba2dc422b081ce71",
+                  "key": "gameId",
+                  "value": "154",
                   "type": "text",
                   "enabled": true
                 }
