@@ -243,7 +243,7 @@
       "item": [
         {
           "_postman_id": "89801617-8537-bd4c-bbe9-54755d0cd98d",
-          "name": "/game/detail",
+          "name": "/gift/list",
           "request": {
             "url": "http://h5gc.niccce.com/gift/list",
             "method": "POST",
