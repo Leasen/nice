@@ -171,6 +171,39 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "8b0d9d65-4a1b-8513-9502-79938ec9c967",
+          "name": "/game/detail",
+          "request": {
+            "url": "http://localhost:8080/game/detail",
+            "method": "POST",
+            "header": [
+              {
+                "key": "uin",
+                "value": "leasenli",
+                "description": ""
+              },
+              {
+                "key": "token",
+                "value": "WJ27qOKbMIKki8d5eRPz9lDJTGRdrVco",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "gameId",
+                  "value": "154",
+                  "type": "text",
+                  "enabled": true
+                }
+              ]
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
