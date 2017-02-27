@@ -138,7 +138,42 @@
       "_postman_id": "bfa26418-fde4-7a2d-eb37-971101ec96eb",
       "name": "ppgc.mgmt",
       "description": "http://ppgc.mgmt.niccce.com/html/index.html\r\n&÷leasenli\r\nÆ12345678",
-      "item": []
+      "item": [
+        {
+          "_postman_id": "913e6b46-937e-561f-9b75-62f0f20c023e",
+          "name": "/game/detail",
+          "request": {
+            "url": "http://h5gc.niccce.com/game/detail",
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "appId",
+                  "value": "10020",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "timestamp",
+                  "value": "1487225834",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "sign",
+                  "value": "dc909bbd4d349fbeba2dc422b081ce71",
+                  "type": "text",
+                  "enabled": true
+                }
+              ]
+            },
+            "description": ""
+          },
+          "response": []
+        }
+      ]
     },
     {
       "_postman_id": "e4b289fd-1816-b578-a35e-d5ff885a9476",
