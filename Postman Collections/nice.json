@@ -202,6 +202,37 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "913016ff-5024-3aa7-44f0-05fbe5a9dae0",
+          "name": "/game/update [local]",
+          "request": {
+            "url": "http://localhost:8080/game/update",
+            "method": "POST",
+            "header": [
+              {
+                "key": "userId",
+                "value": "leasenli",
+                "description": ""
+              },
+              {
+                "key": "token",
+                "value": "WJ27qOKbMIKki8d5eRPz9lDJTGRdrVco",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\t\"gameId\" : \"154\",\r\n\t\"gameName\" : \"test11111\",\r\n\t\"gameLinkage\" : \"www.baidu.com\",\r\n\t\"gameProviderId\" : \"nice001\",\r\n\t\"gameDesc\" : \" test11110 \",\r\n\t\"gameOnlineTime\" : \"2017-02-27 14:00:00\",\r\n\t\"gameShortDesc\" : \"test111101121\",\r\n\t\"gameIcon\" : \"http://ppgc.mgmt.niccce.com/file/get/278\",\r\n\t\"gameBgPicture\" : \"http://ppgc.mgmt.niccce.com/file/get/279\",\r\n\t\"gameTagIds\" : [4],\r\n\t\"gameTypeIds\" : [3]\r\n}"
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
