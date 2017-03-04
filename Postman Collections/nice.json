@@ -132,7 +132,57 @@
       "_postman_id": "a984af77-5686-bf90-00d8-e867122eeb1d",
       "name": "niceopen.mgmt",
       "description": "http://niceopen.mgmt.niccce.com/html/index.html",
-      "item": []
+      "item": [
+        {
+          "_postman_id": "8d7e1618-0030-9c15-c2c1-1ca515370656",
+          "name": "channel/overview",
+          "request": {
+            "url": "http://localhost:8080/gift/list",
+            "method": "POST",
+            "header": [
+              {
+                "key": "uin",
+                "value": "1006196",
+                "description": ""
+              },
+              {
+                "key": "token",
+                "value": "GqKoTGiXcSnWguL18mvDoVkt2CAMlj4a",
+                "description": ""
+              },
+              {
+                "key": "needLogin",
+                "value": "2",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "page",
+                  "value": "0",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "type": "text",
+                  "enabled": true
+                }
+              ]
+            },
+            "description": ""
+          },
+          "response": []
+        }
+      ]
     },
     {
       "_postman_id": "bfa26418-fde4-7a2d-eb37-971101ec96eb",
