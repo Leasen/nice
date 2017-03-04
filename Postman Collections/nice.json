@@ -137,27 +137,17 @@
           "_postman_id": "8d7e1618-0030-9c15-c2c1-1ca515370656",
           "name": "channel/overview",
           "request": {
-            "url": "http://localhost:8080/gift/list",
+            "url": "http://localhost:8080/channel/overview",
             "method": "POST",
             "header": [
               {
-                "key": "uin",
-                "value": "1006196",
+                "key": "userId",
+                "value": "leasenli",
                 "description": ""
               },
               {
                 "key": "token",
-                "value": "GqKoTGiXcSnWguL18mvDoVkt2CAMlj4a",
-                "description": ""
-              },
-              {
-                "key": "needLogin",
-                "value": "2",
-                "description": ""
-              },
-              {
-                "key": "Content-Type",
-                "value": "application/x-www-form-urlencoded",
+                "value": "WJ27qOKbMIKki8d5eRPz9lDJTGRdrVco",
                 "description": ""
               }
             ],
