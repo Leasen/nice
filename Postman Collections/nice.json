@@ -135,7 +135,7 @@
       "item": [
         {
           "_postman_id": "8d7e1618-0030-9c15-c2c1-1ca515370656",
-          "name": "channel/overview",
+          "name": "channel/overview [local]",
           "request": {
             "url": "http://localhost:8080/channel/overview",
             "method": "POST",
