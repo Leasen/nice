@@ -228,6 +228,63 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "5460b51c-38e6-a1a2-163a-162a166512c4",
+          "name": "/settle/developer/view [local]",
+          "request": {
+            "url": "http://niceopen.mgmt.niccce.com/settle/developer/view",
+            "method": "POST",
+            "header": [
+              {
+                "key": "userId",
+                "value": "wanyou",
+                "description": ""
+              },
+              {
+                "key": "token",
+                "value": "csar9z618tneqYcuU3qqAzelYGh3VVzk",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "page",
+                  "value": "2",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "gameId",
+                  "value": "0",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "firstMonth",
+                  "value": "2017-03-05",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "lastMonth",
+                  "value": "2017-03-05",
+                  "type": "text",
+                  "enabled": true
+                }
+              ]
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
