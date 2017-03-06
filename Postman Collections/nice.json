@@ -499,7 +499,23 @@
           "request": {
             "url": "http://h5gc.niccce.com/game/banner/list",
             "method": "GET",
-            "header": [],
+            "header": [
+              {
+                "key": "uin",
+                "value": "1006995",
+                "description": ""
+              },
+              {
+                "key": "token",
+                "value": "kpHOidLi6P3bP4D3TQJwwbQ8THA05OtN",
+                "description": ""
+              },
+              {
+                "key": "needLogin",
+                "value": "2",
+                "description": ""
+              }
+            ],
             "body": {
               "mode": "formdata",
               "formdata": []
