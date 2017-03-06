@@ -171,6 +171,45 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "75e38194-caa9-2c68-72b7-e87b06fae5f7",
+          "name": "/settle/developer/view",
+          "request": {
+            "url": "http://localhost:8080/channel/overview",
+            "method": "POST",
+            "header": [
+              {
+                "key": "userId",
+                "value": "leasenli",
+                "description": ""
+              },
+              {
+                "key": "token",
+                "value": "W4YmoBFZihNkr2ImDYl2vqvNQ7Eqjyng",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "page",
+                  "value": "2",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "type": "text",
+                  "enabled": true
+                }
+              ]
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
