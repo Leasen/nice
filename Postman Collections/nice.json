@@ -492,6 +492,21 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "2f37769f-1e44-a0ce-4503-740311886d2b",
+          "name": "/game/banner/list",
+          "request": {
+            "url": "http://h5gc.niccce.com/game/banner/list",
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     }
