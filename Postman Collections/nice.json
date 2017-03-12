@@ -639,63 +639,6 @@
         "description": ""
       },
       "response": []
-    },
-    {
-      "_postman_id": "db351b53-a50e-1a0b-ad02-d2c3ed64985f",
-      "name": "/settle/channel/view [local]",
-      "request": {
-        "url": "http://localhost:8080/settle/channel/view",
-        "method": "POST",
-        "header": [
-          {
-            "key": "userId",
-            "value": "leasenli",
-            "description": ""
-          },
-          {
-            "key": "token",
-            "value": "pR1KSST2y18zbnMXDRbvYwqezlVOX95p",
-            "description": ""
-          }
-        ],
-        "body": {
-          "mode": "formdata",
-          "formdata": [
-            {
-              "key": "page",
-              "value": "2",
-              "type": "text",
-              "enabled": true
-            },
-            {
-              "key": "pageSize",
-              "value": "10",
-              "type": "text",
-              "enabled": true
-            },
-            {
-              "key": "channelId",
-              "value": "0",
-              "type": "text",
-              "enabled": true
-            },
-            {
-              "key": "firstMonth",
-              "value": "2017-03-05",
-              "type": "text",
-              "enabled": true
-            },
-            {
-              "key": "lastMonth",
-              "value": "2017-03-05",
-              "type": "text",
-              "enabled": true
-            }
-          ]
-        },
-        "description": ""
-      },
-      "response": []
     }
   ]
 }
