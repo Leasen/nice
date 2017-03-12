@@ -525,6 +525,63 @@
           "response": []
         }
       ]
+    },
+    {
+      "_postman_id": "802c9a3f-0bff-f6a8-9546-d591e44813dc",
+      "name": "/settle/developer/view [local]",
+      "request": {
+        "url": "http://localhost:8080/settle/developer/view",
+        "method": "POST",
+        "header": [
+          {
+            "key": "userId",
+            "value": "leasenli",
+            "description": ""
+          },
+          {
+            "key": "token",
+            "value": "pR1KSST2y18zbnMXDRbvYwqezlVOX95p",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "page",
+              "value": "0",
+              "type": "text",
+              "enabled": true
+            },
+            {
+              "key": "pageSize",
+              "value": "10",
+              "type": "text",
+              "enabled": true
+            },
+            {
+              "key": "gameId",
+              "value": "0",
+              "type": "text",
+              "enabled": true
+            },
+            {
+              "key": "firstMonth",
+              "value": "2017-03-05",
+              "type": "text",
+              "enabled": true
+            },
+            {
+              "key": "lastMonth",
+              "value": "2017-03-05",
+              "type": "text",
+              "enabled": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
